@@ -462,6 +462,7 @@ ol {
   height: 56px;
   border-radius: 4px;
   padding: 16px 32px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -561,6 +562,14 @@ ol {
     line-height: 1.2;
     color: #2e2f42;
   }
+}
+
+.about-us-paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* #endregion */
@@ -1068,7 +1077,17 @@ ol {
 .footer-paragraph {
   color: #f4f4fd;
   letter-spacing: 0.02em;
-  width: 264px;
+  color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-paragraph {
+    width: 264px;
+  }
 }
 
 .logo-part-footer {
@@ -1272,7 +1291,7 @@ ol {
 .input-email {
   border: 1px solid #fff;
   border-radius: 4px;
-  width: 264px;
+  width: 288px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding: 8px;
@@ -1283,6 +1302,12 @@ ol {
   line-height: 2;
   letter-spacing: 0.04em;
   opacity: 0.3;
+}
+
+@media only screen and (min-width: 768px) {
+  .input-email {
+    width: 264px;
+  }
 }
 
 @media only screen and (min-width: 1158px) {
