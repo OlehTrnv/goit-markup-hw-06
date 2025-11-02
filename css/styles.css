@@ -122,12 +122,13 @@ ol {
 .header-logo {
   align-items: center;
   display: block;
-  padding: 24px 0;
+  padding: 16px 0;
 }
 
 @media only screen and (min-width: 768px) {
   .header-logo {
     margin-right: 120px;
+    padding: 24px 0;
   }
 }
 
@@ -196,6 +197,9 @@ ol {
 }
 
 .contacts-item {
+  display: flex;
+  gap: 12px;
+  font-size: 12px;
   line-height: 1.5;
   color: #434455;
   letter-spacing: 0.02em;
@@ -205,6 +209,7 @@ ol {
 
 @media only screen and (min-width: 1158px) {
   .contacts-item {
+    font-size: 16px;
     padding: 24px 0;
   }
 }
